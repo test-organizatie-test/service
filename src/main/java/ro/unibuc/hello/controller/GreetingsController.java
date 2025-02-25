@@ -12,6 +12,9 @@ import ro.unibuc.hello.service.GreetingsService;
 
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
+// commentariu bianca
+
+
 
 @Controller
 public class GreetingsController {
