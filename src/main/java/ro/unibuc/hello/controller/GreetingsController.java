@@ -19,6 +19,7 @@ public class GreetingsController {
     @Autowired
     private GreetingsService greetingsService;
 
+    // Comentariul Ioanei - Hello World!
     @GetMapping("/hello-world")
     @ResponseBody
     public Greeting sayHello(@RequestParam(name="name", required=false, defaultValue="Stranger") String name) {
